@@ -8,7 +8,7 @@ description: >-
 
 #### ​:calendar\_spiral:  June 7, 2022 <a href="#may-3-2022" id="may-3-2022"></a>
 
-`​`[`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)`​`
+[`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
 ### Improved bundle support for promotions <a href="#checkout.com-integration-and-error-improvements-in-v1.7.0" id="checkout.com-integration-and-error-improvements-in-v1.7.0"></a>
 
@@ -18,7 +18,7 @@ description: >-
 
 #### :calendar\_spiral:  May 3, 2022&#x20;
 
-[`Hosted checkout`](https://github.com/commercelayer/commercelayer-react-checkout)`​`
+[`Hosted checkout`](https://github.com/commercelayer/commercelayer-react-checkout)
 
 ### Checkout.com integration and error improvements in `v1.7.0`
 
@@ -28,7 +28,7 @@ Hosted checkout `v1.7.0` now supports [Checkout.com](https://docs.commercelayer.
 
 #### :calendar\_spiral:  May 2, 2022
 
-``[`React components`](https://github.com/commercelayer/commercelayer-react)``
+[`React components`](https://github.com/commercelayer/commercelayer-react)****
 
 ### **Updated stock transfer components in `v3.11.1`**
 
@@ -38,7 +38,7 @@ React components `v3.11.1` comes with valuable improvements regarding the stock 
 
 #### ​:calendar\_spiral:  April 20, 2022 <a href="#may-2-2022-1" id="may-2-2022-1"></a>
 
-`​`[`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)`​`
+[`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
 ### New token info endpoint <a href="#klarna-integration-in-v3.10.0" id="klarna-integration-in-v3.10.0"></a>
 
@@ -48,7 +48,7 @@ A new OAuth endpoint has been exposed. You can now unpack the JWT token informat
 
 #### ​:calendar\_spiral:  April 14, 2022 <a href="#may-2-2022-1" id="may-2-2022-1"></a>
 
-`​`[`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)`​`
+[`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
 ### Avalara integration update (AvaTax) <a href="#klarna-integration-in-v3.10.0" id="klarna-integration-in-v3.10.0"></a>
 
@@ -58,7 +58,7 @@ A new OAuth endpoint has been exposed. You can now unpack the JWT token informat
 
 #### :calendar\_spiral:  April 12, 2022 <a href="#may-2-2022" id="may-2-2022"></a>
 
-`​`[`React components`](https://github.com/commercelayer/commercelayer-react)`​`
+[`React components`](https://github.com/commercelayer/commercelayer-react)
 
 ### Klarna and Checkout.com integration in **`v3.10.0`**
 
@@ -68,7 +68,7 @@ React components `v3.10.0` now supports [Klarna](https://docs.commercelayer.io/d
 
 #### :calendar\_spiral:  April 4, 2022 <a href="#may-2-2022-1-1" id="may-2-2022-1-1"></a>
 
-`​`[`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)`​`
+[`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
 ### Checkout.com integration and updates to importable resources <a href="#klarna-integration-in-v3.10.0-1" id="klarna-integration-in-v3.10.0-1"></a>
 
@@ -78,7 +78,7 @@ Commerce Layer API now supports [Checkout.com](https://docs.commercelayer.io/dev
 
 #### :calendar\_spiral:  March 17, 2022
 
-[`Hosted checkout`](https://github.com/commercelayer/commercelayer-react-checkout)``
+[`Hosted checkout`](https://github.com/commercelayer/commercelayer-react-checkout)
 
 ### Improved flow in `v1.5.0`
 
@@ -88,7 +88,7 @@ Hosted checkout `v1.5.0` features robust improvements on how the application sta
 
 #### :calendar\_spiral:  March 16, 2022
 
-`​`[`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)`​`
+[`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
 ### Stripe integration optimizations <a href="#klarna-integration-in-v3.10.0-1-1-1" id="klarna-integration-in-v3.10.0-1-1-1"></a>
 
@@ -104,7 +104,7 @@ On top of that, a [payment source](https://docs.commercelayer.io/developers/v/ho
 
 #### ​:calendar\_spiral:  February 9, 2022 <a href="#may-2-2022-1-1-1-1" id="may-2-2022-1-1-1-1"></a>
 
-`​`[`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)`​`
+[`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
 ### PayPal integration updates <a href="#klarna-integration-in-v3.10.0-1-1-2" id="klarna-integration-in-v3.10.0-1-1-2"></a>
 
@@ -114,7 +114,7 @@ Our [PayPal integration](https://docs.commercelayer.io/developers/v/how-tos/paym
 
 #### ​:calendar\_spiral:  January 19, 2022 <a href="#may-2-2022-1-1-1" id="may-2-2022-1-1-1"></a>
 
-`​`[`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)`​`
+[`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
 ### Klarna integration <a href="#klarna-integration-in-v3.10.0-1-1" id="klarna-integration-in-v3.10.0-1-1"></a>
 
@@ -124,7 +124,7 @@ Commerce Layer API now supports [Klarna](https://docs.commercelayer.io/developer
 
 #### :calendar\_spiral:  January 18, 2022 <a href="#may-3-2022" id="may-3-2022"></a>
 
-​[`Hosted checkout`](https://github.com/commercelayer/commercelayer-react-checkout)`​`
+​[`Hosted checkout`](https://github.com/commercelayer/commercelayer-react-checkout)
 
 ### Bundles management in `v1.1.0` <a href="#checkout.com-integration-and-error-improvements-in-v1.7.0" id="checkout.com-integration-and-error-improvements-in-v1.7.0"></a>
 
@@ -134,7 +134,7 @@ Hosted checkout `v1.1.0` now supports [bundles](https://commercelayer.io/docs/da
 
 #### ​:calendar\_spiral:  November 23, 2021 <a href="#may-2-2022-2" id="may-2-2022-2"></a>
 
-`​`[`React components`](https://github.com/commercelayer/commercelayer-react)`​`
+[`React components`](https://github.com/commercelayer/commercelayer-react)
 
 ### Switched to the new SDK in **`v2.47.0`** <a href="#klarna-integration-in-v3.10.0-2" id="klarna-integration-in-v3.10.0-2"></a>
 
