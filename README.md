@@ -6,7 +6,7 @@ description: >-
 
 # Changelog
 
-#### ​:calendar\_spiral:  June 7, 2022 <a href="#may-3-2022" id="may-3-2022"></a>
+#### ​:calendar\_spiral:  June 7, 2022 <a href="#june-7-2022" id="june-7-2022"></a>
 
 [`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
@@ -36,7 +36,7 @@ React components `v3.11.1` comes with valuable improvements regarding the stock 
 
 ![](.gitbook/assets/changelog-separator\_full-width.png)
 
-#### ​:calendar\_spiral:  April 20, 2022 <a href="#may-2-2022-1" id="may-2-2022-1"></a>
+#### ​:calendar\_spiral:  April 20, 2022 <a href="#april-20-2022" id="april-20-2022"></a>
 
 [`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
@@ -46,7 +46,7 @@ A new OAuth endpoint has been exposed. You can now unpack the JWT token informat
 
 ![](<.gitbook/assets/changelog-separator\_full-width (1).png>)
 
-#### ​:calendar\_spiral:  April 14, 2022 <a href="#may-2-2022-1" id="may-2-2022-1"></a>
+#### ​:calendar\_spiral:  April 14, 2022 <a href="#april-14-2022" id="april-14-2022"></a>
 
 [`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
@@ -56,7 +56,7 @@ A new OAuth endpoint has been exposed. You can now unpack the JWT token informat
 
 ![](<.gitbook/assets/changelog-separator\_full-width (1).png>)
 
-#### :calendar\_spiral:  April 12, 2022 <a href="#may-2-2022" id="may-2-2022"></a>
+#### :calendar\_spiral:  April 12, 2022 <a href="#april-12-2022" id="april-12-2022"></a>
 
 [`React components`](https://github.com/commercelayer/commercelayer-react)
 
@@ -66,7 +66,7 @@ React components `v3.10.0` now supports [Klarna](https://docs.commercelayer.io/d
 
 ![](<.gitbook/assets/changelog-separator\_full-width (1).png>)
 
-#### :calendar\_spiral:  April 4, 2022 <a href="#may-2-2022-1-1" id="may-2-2022-1-1"></a>
+#### :calendar\_spiral:  April 4, 2022 <a href="#april-4-2022" id="april-4-2022"></a>
 
 [`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
@@ -102,7 +102,7 @@ On top of that, a [payment source](https://docs.commercelayer.io/developers/v/ho
 
 ![](<.gitbook/assets/changelog-separator\_full-width (1).png>)
 
-#### ​:calendar\_spiral:  February 9, 2022 <a href="#may-2-2022-1-1-1-1" id="may-2-2022-1-1-1-1"></a>
+#### ​:calendar\_spiral:  February 9, 2022 <a href="#february-9-2022" id="february-9-2022"></a>
 
 [`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
@@ -112,7 +112,7 @@ Our [PayPal integration](https://docs.commercelayer.io/developers/v/how-tos/paym
 
 ![](<.gitbook/assets/changelog-separator\_full-width (1).png>)
 
-#### ​:calendar\_spiral:  January 19, 2022 <a href="#may-2-2022-1-1-1" id="may-2-2022-1-1-1"></a>
+#### ​:calendar\_spiral:  January 19, 2022 <a href="#january-19-2022" id="january-19-2022"></a>
 
 [`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
@@ -122,7 +122,7 @@ Commerce Layer API now supports [Klarna](https://docs.commercelayer.io/developer
 
 ![](<.gitbook/assets/changelog-separator\_full-width (1).png>)
 
-#### :calendar\_spiral:  January 18, 2022 <a href="#may-3-2022" id="may-3-2022"></a>
+#### :calendar\_spiral:  January 18, 2022 <a href="#january-18-2022" id="january-18-2022"></a>
 
 ​[`Hosted checkout`](https://github.com/commercelayer/commercelayer-react-checkout)
 
@@ -132,7 +132,7 @@ Hosted checkout `v1.1.0` now supports [bundles](https://commercelayer.io/docs/da
 
 ![](<.gitbook/assets/changelog-separator\_full-width (1).png>)
 
-#### ​:calendar\_spiral:  November 23, 2021 <a href="#may-2-2022-2" id="may-2-2022-2"></a>
+#### ​:calendar\_spiral:  November 23, 2021 <a href="#november-23-2021" id="november-23-2021"></a>
 
 [`React components`](https://github.com/commercelayer/commercelayer-react)
 
