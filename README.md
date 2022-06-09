@@ -28,7 +28,7 @@ Hosted checkout `v1.7.0` now supports [Checkout.com](https://docs.commercelayer.
 
 #### :calendar_spiral: May 2, 2022
 
-[`React components`](https://github.com/commercelayer/commercelayer-react)\*\*\*\*
+[`React components`](https://github.com/commercelayer/commercelayer-react)
 
 ### Updated stock transfer components in `v3.11.1`
 
