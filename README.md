@@ -10,7 +10,7 @@ description: >-
 
 [`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
-### Improved bundle support for promotions <a href="#checkout.com-integration-and-error-improvements-in-v1.7.0" id="checkout.com-integration-and-error-improvements-in-v1.7.0"></a>
+### Improved bundle support for promotions <a href="#improved-bundle-support-for-promotions" id="improved-bundle-support-for-promotions"></a>
 
 [Free gift](https://docs.commercelayer.io/developers/v/api-reference/free\_gift\_promotions) and [fixed price](https://docs.commercelayer.io/developers/v/api-reference/fixed\_price\_promotions) promotions can now apply to bundles (as long as they [share the same SKU list](https://docs.commercelayer.io/developers/v/api-reference/sku\_list\_promotion\_rules)). Both can now combine with other promotion types (but cannot overlap with each other or with other promotions of the same type). Two new relationships have also been added to the [order object](https://docs.commercelayer.io/developers/v/api-reference/orders/object) (`available_free_skus` and `available_free_bundles`), which is useful when presenting the customer with a list of possible free gifts during checkout.
 
@@ -40,7 +40,7 @@ React components `v3.11.1` comes with valuable improvements regarding the stock 
 
 [`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
-### New token info endpoint <a href="#klarna-integration-in-v3.10.0" id="klarna-integration-in-v3.10.0"></a>
+### New token info endpoint <a href="#new-token-info-endpoint" id="new-token-info-endpoint"></a>
 
 A new OAuth endpoint has been exposed. You can now unpack the JWT token information by sending a GET request to `oauth/tokeninfo`. The response will contain some useful info such as the application type, the owner, and the associated roles, permissions, and scopes.
 
@@ -50,7 +50,7 @@ A new OAuth endpoint has been exposed. You can now unpack the JWT token informat
 
 [`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
-### Avalara integration update (AvaTax) <a href="#klarna-integration-in-v3.10.0" id="klarna-integration-in-v3.10.0"></a>
+### Avalara integration update (AvaTax) <a href="#avalara-integration-update-avatax" id="avalara-integration-update-avatax"></a>
 
 [AvaTax](https://developer.avalara.com/avatax/dev-guide/transactions/document-types/) is a full-service engine for calculating transactional taxes, including sales, use, VAT, and many other tax types. If you're using [Avalara](https://docs.commercelayer.io/developers/v/api-reference/avalara\_accounts) as the tax calculator associated with one (or more) of your markets, you can now register tax computation on their systems (`SalesInvoice`). This is useful for tax returns in the US.
 
@@ -70,7 +70,7 @@ React components `v3.10.0` now supports [Klarna](https://docs.commercelayer.io/d
 
 [`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
-### Checkout.com integration and updates to importable resources <a href="#klarna-integration-in-v3.10.0-1" id="klarna-integration-in-v3.10.0-1"></a>
+### Checkout.com integration and updates to importable resources <a href="#checkout.com-integration-and-updates-to-importable-resources" id="checkout.com-integration-and-updates-to-importable-resources"></a>
 
 Commerce Layer API now supports [Checkout.com](https://docs.commercelayer.io/developers/v/how-tos/payments/checkout.com) out-of-the-box (in addition to all the other [payment gateway integrations](https://docs.commercelayer.io/developers/v/how-tos/payments)). [Bundles](https://docs.commercelayer.io/developers/importing-resources#importing-a-list-of-bundles) and [SKU options](https://docs.commercelayer.io/developers/importing-resources#importing-a-list-of-sku-options) have been added to the list of importable resources.
 
@@ -90,7 +90,7 @@ Hosted checkout `v1.5.0` features robust improvements on how the application sta
 
 [`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
-### Stripe integration optimizations <a href="#klarna-integration-in-v3.10.0-1-1-1" id="klarna-integration-in-v3.10.0-1-1-1"></a>
+### Stripe integration optimizations <a href="#stripe-integration-optimizations" id="stripe-integration-optimizations"></a>
 
 In order to prevent errors in some edge cases where an order can be placed after the authorization was created by the Stripe webhook, a large set of optimizations has been implemented on our [Stripe integration](https://docs.commercelayer.io/developers/v/how-tos/payments/stripe). Among them:
 
@@ -106,7 +106,7 @@ On top of that, a [payment source](https://docs.commercelayer.io/developers/v/ho
 
 [`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
-### PayPal integration updates <a href="#klarna-integration-in-v3.10.0-1-1-2" id="klarna-integration-in-v3.10.0-1-1-2"></a>
+### PayPal integration updates <a href="#paypal-integration-updates" id="paypal-integration-updates"></a>
 
 Our [PayPal integration](https://docs.commercelayer.io/developers/v/how-tos/payments/paypal) has been updated and now uses the most recent PayPal [V2](./#klarna-integration-in-v3.10.0-1-1-2) libraries (no changes to the developer experience and integration functionalities).
 
@@ -116,7 +116,7 @@ Our [PayPal integration](https://docs.commercelayer.io/developers/v/how-tos/paym
 
 [`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
-### Klarna integration <a href="#klarna-integration-in-v3.10.0-1-1" id="klarna-integration-in-v3.10.0-1-1"></a>
+### Klarna integration <a href="#klarna-integration" id="klarna-integration"></a>
 
 Commerce Layer API now supports [Klarna](https://docs.commercelayer.io/developers/v/how-tos/payments/klarna) out-of-the-box (in addition to all the other [payment gateway integrations](https://docs.commercelayer.io/developers/v/how-tos/payments)).
 
@@ -126,7 +126,7 @@ Commerce Layer API now supports [Klarna](https://docs.commercelayer.io/developer
 
 ​[`Hosted checkout`](https://github.com/commercelayer/commercelayer-react-checkout)
 
-### Bundles management in `v1.1.0` <a href="#checkout.com-integration-and-error-improvements-in-v1.7.0" id="checkout.com-integration-and-error-improvements-in-v1.7.0"></a>
+### Bundles management in `v1.1.0` <a href="#bundles-management-in-v1.1.0" id="bundles-management-in-v1.1.0"></a>
 
 Hosted checkout `v1.1.0` now supports [bundles](https://commercelayer.io/docs/data-model/bundles), showing them in the order summary as a single line item and unpacking them in terms of single SKUs inside each shipment.
 
@@ -136,6 +136,6 @@ Hosted checkout `v1.1.0` now supports [bundles](https://commercelayer.io/docs/da
 
 [`React components`](https://github.com/commercelayer/commercelayer-react)
 
-### Switched to the new SDK in **`v2.47.0`** <a href="#klarna-integration-in-v3.10.0-2" id="klarna-integration-in-v3.10.0-2"></a>
+### Switched to the new SDK in **`v2.47.0`** <a href="#switched-to-the-new-sdk-in-v2.47.0" id="switched-to-the-new-sdk-in-v2.47.0"></a>
 
 React components `v2.47.0` start using our [new SDK](https://github.com/commercelayer/commercelayer-sdk) (the [previous one](https://github.com/commercelayer/commercelayer-js-sdk) is now deprecated, so make sure to update your code ASAP if you're still using it). This comes with improved performance, stability, and a lot of other new features.
