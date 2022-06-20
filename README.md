@@ -12,7 +12,7 @@ description: >-
 
 ### Introduced idempotency for payments
 
-[Order](https://docs.commercelayer.io/developers/v/api-reference/orders) status changes are now idempotent. This means order and payment statuses stay consistent with multiple updates, which can limit the effect of transaction errors. For example, it's now possible to place or cancel an order more than once without worrying about duplicated transactions (or other unintended effects). The involved webhooks events, stock item updates, and other status-related actions are executed only once.
+[Order](https://docs.commercelayer.io/developers/v/api-reference/orders) status changes are now idempotent. This means order and payment statuses stay consistent with multiple updates, which can limit the effect of transaction errors. For example, it's now possible to place or cancel an order more than once without worrying about duplicated transactions (or other unintended effects). Because of this, order status-related actions such as webhook events and stock item updates are only executed once.
 
 [Adyen gateway](https://docs.commercelayer.io/developers/v/how-tos/payments/adyen) authorizations via 3DS now generate just one transaction.
 
