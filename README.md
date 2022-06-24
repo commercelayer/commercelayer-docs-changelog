@@ -6,7 +6,30 @@ description: >-
 
 # Changelog
 
-#### ​:calendar\_spiral: June 20, 2022
+#### :calendar\_spiral: June 23, 2022
+
+[`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
+
+### Introduced price volume and shipping weight tiers
+
+Commerce Layer now supports tiered [pricing](https://commercelayer.io/docs/data-model/price-lists-and-currencies) strategies based on volume. Two new resources have been introduced ([price tiers](https://docs.commercelayer.io/developers/v/api-reference/price-tiers) and [price volume tiers](https://docs.commercelayer.io/developers/v/api-reference/price-volume-tiers)) so that you can create up to 5 tiers for each price. The price of the associated SKU will be set by the tier the total quantity of items purchased falls within. Price tiers can be [imported](https://docs.commercelayer.io/developers/importing-resources#importing-a-list-of-prices-with-price-tiers) together with the related prices.
+
+The [shipping methods](https://docs.commercelayer.io/developers/v/api-reference/shipping\_methods) availability management has been improved:
+
+* The relationships with the shipping zone and the shipping category has been relaxed (they're now both optional instead of required to create a shipping method).
+* A new optional relationship with a stock location has been added so that the shipping method can be made available only if the items are shipped from that specific stock location.
+* A new optional weight-based constraint on the shipping method availability has been added. Now you can define a minimum and/or a maximum weight value and make the shipping method available only if the total weight of the items to be shipped falls within those values.
+
+The shipping methods cost management has been differentiated. Now you can select one of two schemes:
+
+* _Flat_ — the shipping method has a fixed cost.
+* _Weight-tiered_ — the [shipping method](https://commercelayer.io/docs/data-model/shipping-zones-and-methods)'s price is tiered based on the total weight of the items included in the shipment. Two new resources have been introduced ([shipping method tiers](https://docs.commercelayer.io/developers/v/api-reference/shipping-method-tiers) and [shipping weight tiers](https://docs.commercelayer.io/developers/v/api-reference/shipping-weight-tiers)) so that you can create up to 5 tiers for each shipping method.
+
+A new [events](https://docs.commercelayer.io/developers/v/api-reference/events) endpoint has been exposed (useful to improve [webhooks](https://docs.commercelayer.io/developers/v/api-reference/webhooks) management and monitoring). Events can be included when fetching the resources that support them to inspect each recorded action.
+
+![](.gitbook/assets/changelog-separator\_full-width.png)
+
+#### :calendar\_spiral: June 20, 2022
 
 [`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
 
