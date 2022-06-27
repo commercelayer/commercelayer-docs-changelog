@@ -12,7 +12,7 @@ description: >-
 
 ### Introduced price volume and shipping weight tiers
 
-Commerce Layer now supports tiered [pricing](https://commercelayer.io/docs/data-model/price-lists-and-currencies) strategies based on volume. These tiers can be used to enable specialized pricing when customers order in quantity, like offering a unit discount when a customer orders 5 of an SKU instead of 1.
+Commerce Layer now supports tiered [pricing](https://commercelayer.io/docs/data-model/price-lists-and-currencies) strategies based on volume. These tiers can be used to enable specialized pricing when customers order in quantity, like offering a unit discount when a customer orders 10 of an SKU instead of 1.
 
 We’ve introduced two new resources — [price tiers](https://docs.commercelayer.io/developers/v/api-reference/price-tiers) and [price volume tiers](https://docs.commercelayer.io/developers/v/api-reference/price-volume-tiers) — enabling you to create up to 5 tiers for each price. The price of the associated SKU will then be set by the tier the total quantity of items falls within. Price tiers can be [imported](https://docs.commercelayer.io/developers/importing-resources#importing-a-list-of-prices-with-price-tiers) together with their related prices.
 
