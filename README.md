@@ -6,6 +6,16 @@ description: >-
 
 # Changelog
 
+#### :calendar\_spiral: July 18, 2022
+
+[`Dashboard`](https://dashboard.commercelayer.io/sign\_up)
+
+### Custom lifetime option for access tokens
+
+Now you can specify a [custom lifetime](https://docs.commercelayer.io/developers/authentication#access-token-expiry) for the access tokens you get when authenticating your Commerce Layer applications (sales channels, integrations, webapps). This can be done at the app level on the admin dashboard when you create/update each application. The token lifetime value must be expressed in seconds and fall within a min of 2 hours and a max of 1 year.
+
+![](.gitbook/assets/changelog-separator\_full-width.png)
+
 #### :calendar\_spiral: June 23, 2022
 
 [`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
