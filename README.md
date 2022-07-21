@@ -6,6 +6,18 @@ description: >-
 
 # Changelog
 
+#### :calendar\_spiral: July 21, 2022
+
+[`Core API`](https://docs.commercelayer.io/developers/v/api-reference/)
+
+### New inventory model default strategy
+
+We introduced a new default inventory model strategy — [no split](https://docs.commercelayer.io/developers/v/how-tos/inventory-model-strategies/no-split). This strategy considers just one [stock location](https://docs.commercelayer.io/developers/v/api-reference/stock\_locations) (the primary one or the first in scope) when checking the inventory for availability and always creates just one [shipment](https://docs.commercelayer.io/developers/v/api-reference/shipments), no matter if the SKUs included in the order belong to different [shipping categories](https://docs.commercelayer.io/developers/v/api-reference/shipping\_categories). The aim is to simplify the rebuild shipments default process and grant better performance. If this strategy is too basic for your business model, you can still pick the one that better suits your needs: [split shipments](https://docs.commercelayer.io/developers/v/how-tos/inventory-model-strategies/split-shipments), [ship from primary](https://docs.commercelayer.io/developers/v/how-tos/inventory-model-strategies/ship-from-primary), [ship from first available (or primary)](https://docs.commercelayer.io/developers/v/how-tos/inventory-model-strategies/ship-from-first-available-or-primary).&#x20;
+
+It is also now possible to enable/disable [shipping methods](https://docs.commercelayer.io/developers/v/api-reference/shipping\_methods) and [payment methods](https://docs.commercelayer.io/developers/v/api-reference/payment\_methods) directly via API. You just need to pass the `_enable` or `_disable` trigger attributes in the payload when patching the resources.
+
+![](.gitbook/assets/changelog-separator\_full-width.png)
+
 #### :calendar\_spiral: July 18, 2022
 
 [`Dashboard`](https://dashboard.commercelayer.io/sign\_up)
